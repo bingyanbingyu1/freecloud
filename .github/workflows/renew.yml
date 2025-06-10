@@ -22,7 +22,7 @@ jobs:
         run: npm install 
 
       - name: Run JS Renew Script
-        run: node renew.js
+        run: node raw_renew.js
         env:
           FC_USERNAME: ${{ secrets.FC_USERNAME }}
           FC_PASSWORD: ${{ secrets.FC_PASSWORD }}
